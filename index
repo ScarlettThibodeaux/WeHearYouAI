@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Hear You AI - Home</title>
+    
+    <style>
+        body {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 18px; /* Larger base font size for readability */
+            line-height: 1.6;
+            background-color: #f9f9f9; /* Soft, light background */
+            color: #333; /* Dark grey text for high contrast */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px; /* Limits width on very large screens */
+            margin: 2rem auto; /* Centers the content */
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 2.8rem; /* Large, clear main title */
+            color: #005a9c; /* A strong, professional blue */
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            color: #555;
+            margin-top: 0.5rem;
+        }
+
+        main h2 {
+            font-size: 2rem;
+            color: #005a9c;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* This is the "Call to Action" button.
+          It's styled to be large, bright, and obvious.
+        */
+        .cta-button {
+            display: block; /* Makes the link behave like a block */
+            width: 80%;
+            margin: 2rem auto; /* Centers the button */
+            padding: 1.2rem 1.5rem;
+            background-color: #007bff; /* Bright, accessible blue */
+            color: #ffffff; /* White text for high contrast */
+            font-size: 1.5rem; /* Very large text */
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none; /* Removes the underline */
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover,
+        .cta-button:focus {
+            background-color: #0056b3; /* Darker blue on hover/focus */
+            outline: 2px solid #004085; /* Accessibility for keyboard navigation */
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Welcome to We Hear You AI</h1>
+            <p>Your partner in clear communication.</p>
+        </header>
+
+        <main>
+            <h2>Empowering You with Simple AI</h2>
+            <p>
+                We are dedicated to helping you connect with your loved ones and the world around you. 
+                Our tools are designed to be simple, effective, and easy to use, especially for 
+                individuals who are elderly or hard of hearing.
+            </p>
+
+            <h2>Try Our New AI Tool</h2>
+            <p>
+                Click the large button below to access our AI assistant. It can help you by 
+                adjusting sound, transcribing speech, and making conversations clearer.
+            </p>
+
+            <a href="#" class="cta-button">
+                Start the AI Assistant
+            </a>
+            
+        </main>
+
+        <footer>
+            <p>&copy; 2025 We Hear You AI. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
